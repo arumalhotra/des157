@@ -6,9 +6,9 @@ function setup() {
 
 function draw() {
 	background(0);
-	var dirY = (mouseY / height - 0.5) * 11;
-	var dirX = (mouseX / width - 0.5) * 11;
-	
+	var dirY == (mouseY / height - 0.5) * 11;
+	var dirX == (mouseX / width - 0.5) * 11;
+
 	directionalLight(204, 204, 204, dirX, dirY, 1);
 	translate(-2 * (200), 0, 0);
 	sphere(200);
@@ -31,4 +31,3 @@ function draw() {
 	translate(-1.5 * (200), 0, 0);
 	sphere(200);
 }
-
