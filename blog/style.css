@@ -1,0 +1,17 @@
+body {
+  text-align: center;
+  background: #FAC2A1;
+  font-family: 'Josefin Sans', sans-serif;
+}
+p {
+  padding-left: 400px;
+  padding-right: 400px;
+  color: #626262;
+}
+div {
+  text-align: left;
+}
+a {
+  text-decoration: none;
+  color: #626262;
+}
