@@ -45,5 +45,6 @@ h2{
 .column-center{ display: inline-block; width: 33%; }
 
 footer {
+	margin-top: 75px;
   text-align: center;
 }
