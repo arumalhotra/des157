@@ -1,0 +1,17 @@
+body {
+  background: #FAC2A1;
+  font-family: 'Josefin Sans', sans-serif;
+}
+p {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 72px;
+}
+
+h2{
+  margin-left: 39px;
+}
