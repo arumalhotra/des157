@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+  font-size: 48px;
+  text-align: center;
+  font-family: 'Bahiana';
+  padding-bottom: 20px;
+}
+
+#rap {
+  font-size: 18px;
+  float: right;
+}
+
+form {
+  color: #CFCFCF;
+}
+
+body {
+  background: black;
+  color: white;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+#wrapper {
+    width: auto;;
+    overflow: hidden;
+}
+#first {
+    width: auto;
+    float:left;
+}
+#second {
+    overflow: hidden;
+}
+
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    background: #C5C5C5;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 30%;
+    background-color: #E5B513;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=reset] {
+    width: 30%;
+    background-color: #33ACFF;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #FFCB76;
+}
+
+input[type=reset]:hover {
+    background-color: #76BDFF;
+}
+
+footer {
+	margin-top: 75px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+}
