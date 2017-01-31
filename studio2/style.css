@@ -1,43 +1,45 @@
 @charset "UTF-8";
-
 * {
     margin: 0px;
     padding: 0px;
 }
 
 h1 {
-  font-size: 48px;
-  text-align: center;
-  font-family: 'Bahiana';
-  padding-bottom: 20px;
+    font-size: 48px;
+    text-align: center;
+    font-family: 'Bahiana';
+    padding-bottom: 20px;
 }
 
 #rap {
-  font-size: 18px;
-  float: right;
+    font-size: 18px;
+    float: right;
 }
 
 form {
-  color: #CFCFCF;
+    color: #CFCFCF;
 }
 
 body {
-  background: black;
-  color: white;
-  margin-left: 15%;
-  margin-right: 15%;
-  margin-top: 5%;
-  font-family: 'Josefin Sans', sans-serif;
-
+    background: black;
+    color: white;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    font-family: 'Josefin Sans', sans-serif;
 }
+
 #wrapper {
-    width: auto;;
+    width: auto;
+    ;
     overflow: hidden;
 }
+
 #first {
     width: auto;
-    float:left;
+    float: left;
 }
+
 #second {
     overflow: hidden;
 }
@@ -82,9 +84,9 @@ input[type=reset]:hover {
 }
 
 footer {
-	margin-top: 75px;
-  text-align: center;
-  text-decoration: none;
-  color: white;
-  font-family: 'Josefin Sans', sans-serif;
+    margin-top: 75px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
 }
