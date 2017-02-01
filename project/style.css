@@ -3,8 +3,8 @@ body {
   font-family: 'Josefin Sans', sans-serif;
 }
 p {
-	margin-left: 40px;
-	margin-right: 40px;
+	margin-left: 20%;
+	margin-right: 20%;
 }
 
 h1 {
@@ -13,5 +13,6 @@ h1 {
 }
 
 h2{
-  margin-left: 39px;
+  margin-left: 20%;
+  margin-right: 20%;
 }
