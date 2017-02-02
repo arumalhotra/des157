@@ -16,22 +16,35 @@
             background-color: #178FFF;
             font-size: 11px;
             margin: 24px;
-
         }
-
         h1 {
-            margin-bottom: 24px;
+            margin-bottom: 104px;
         }
+
+        h2 {
+            font-weight: 400;
+        }
+
+        div {
+            margin: 0 auto;
+            position: relative;
+            width: 300px;
+        }
+
+        #hat {
+            transform: translateX(-55%);
+        }
+
 
     </style>
 </head>
 
 <body>
     <h1>Ch 13 - The Cat's Hat</h1>
-    <p style="text-align: center">
+    <div>
       <img src="img/hat.png" id="cat" style="position: absolute">
-      <img src="img/cat.png" id="hat" style="position: absolute">
-    </p>
+      <img style="margin-left:90px" src="img/cat.png" id="hat" style="position: absolute">
+    </div>
     <script>
         var cat = document.querySelector("#cat");
         var hat = document.querySelector("#hat");
