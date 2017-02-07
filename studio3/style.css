@@ -1,0 +1,188 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px
+}
+
+body {
+  .zoom: 100%;
+  margin: auto;
+  max-width: 100%;
+  background: #26D6C4;
+
+}
+
+h1 {
+    font-family: 'Barrio';
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 48px;
+}
+
+section {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+}
+
+.show_img {
+    background: no-repeat center;
+}
+
+.bckpk:hover {
+  background-color: yellow;
+  background-position: center;
+}
+
+.bckpk {
+    width: 333px;
+    height: 361px;
+    text-align: center;
+}
+
+#backpack {
+  padding-left: 35%;
+  bottom: 100px;
+}
+
+#book {
+    visibility: hidden;
+    opacity: 0.5;
+    position: relative;
+    left: 2%;
+    bottom: 200px;
+}
+
+#laptop {
+    visibility: hidden;
+    opacity: 0.5;
+    position: relative;
+    right: 70%;
+    bottom: 150px;
+}
+
+#earphone {
+    visibility: hidden;
+    opacity: 0.5;
+    position: relative;
+    left: 600px;
+    bottom: 0px;
+}
+
+#pen {
+    visibility: hidden;
+    opacity: 0.5;
+    position: relative;
+    left: -150px;
+    bottom: -50px;
+}
+
+#mobile {
+    visibility: hidden;
+    opacity: 0.5;
+    position: relative;
+    right: 800px;
+    bottom: -100px;
+}
+
+#book:hover, #laptop:hover, #pen:hover, #earphone:hover, #mobile:hover {
+    opacity: 1;
+}
+
+aside {
+    animation-name: fade;
+    animation-duration: 1s;
+    position: absolute;
+    top: 300px;
+    left: 35%;
+    width: 700px;
+    height: 150px;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: #EAE9DE;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #2E4052;
+    display: none;
+    opacity: 1;
+    box-shadow: 0px 0px 60px #2E4052;
+
+}
+
+aside p {
+    position: relative;
+    margin-top: 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+aside #close {
+    position: absolute;
+    cursor: pointer;
+}
+
+@keyframes fade {
+    from {
+        background-color: transparent;
+    }
+    to {
+        background-color: #EAE9DE;
+    }
+}
+
+#bookInfo {
+    position: absolute;
+    width: 250px;
+    font-family: cursive;
+    font-weight: lighter;
+    font-size: 70%;
+}
+
+#mobileInfo {
+    position: absolute;
+    width: 250px;
+    font-family: cursive;
+    font-weight: lighter;
+    font-size: 70%;
+}
+
+#penInfo {
+    position: absolute;
+    width: 250px;
+    font-family: cursive;
+    font-weight: lighter;
+    font-size: 70%;
+}
+
+#laptopInfo {
+    position: absolute;
+    width: 250px;
+    font-family: cursive;
+    font-weight: lighter;
+    font-size: 70%;
+}
+
+#earphoneInfo {
+    position: absolute;
+    width: 250px;
+    font-family: cursive;
+    font-weight: lighter;
+    font-size: 70%;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: auto;
+}
+
+footer {
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+}
