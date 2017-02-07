@@ -15,13 +15,7 @@ h1 {
     font-family: 'Barrio';
     text-align: center;
     padding-top: 50px;
-    padding-bottom: 50px;
     font-size: 48px;
-}
-
-section {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 24px;
 }
 
 .show_img {
@@ -29,8 +23,8 @@ section {
 }
 
 .bckpk:hover {
-  background-color: yellow;
-  background-position: center;
+  -webkit-transform: translateX(-10px);
+  transform: translateX(-10px);
 }
 
 .bckpk {
@@ -111,6 +105,8 @@ aside p {
     position: relative;
     margin-top: 10px;
     font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
 }
 
 aside #close {
