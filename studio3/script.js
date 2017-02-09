@@ -40,6 +40,4 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     }
 
-    // all other js here
-
 });
