@@ -41,25 +41,6 @@
                 x: 0,
                 y: 0
             };
-        var Dot = function() {
-            this.x = 0;
-            this.y = 0;
-            this.node = (function() {
-                var n = document.createElement("div");
-                n.className = "trail";
-                document.body.appendChild(n);
-                return n;
-            }());
-        };
-        Dot.prototype.draw = function() {
-            this.node.style.left = this.x + "px";
-            this.node.style.top = this.y + "px";
-        };
-
-        for (var i = 0; i < 12; i++) {
-            var d = new Dot();
-            dots.push(d);
-        }
 
         function draw() {
             var x = mouse.x,
@@ -77,17 +58,40 @@
             });
         }
 
-        addEventListener("mousemove", function(event) {
-            mouse.x = event.pageX;
-            mouse.y = event.pageY;
-        });
-
         function animate() {
             draw();
             requestAnimationFrame(animate);
         }
 
+        var dot = function() {
+            this.x = 0;
+            this.y = 0;
+            this.node = (function() {
+                var n = document.createElement("div");
+                n.className = "trail";
+                document.body.appendChild(n);
+                return n;
+            }());
+        };
+
+        dot.prototype.draw = function() {
+            this.node.style.left = this.x + "px";
+            this.node.style.top = this.y + "px";
+        };
+
+        for (var i = 0; i < 12; i++) {
+            var d = new dot();
+            dots.push(d);
+        }
+
+        addEventListener("mousemove", function(event) {
+            mouse.x = event.pageX;
+            mouse.y = event.pageY;
+        });
+
         animate();
     </script>
 
 </body>
+
+</html>
