@@ -1,34 +1,45 @@
 <!doctype html>
 <html>
+    <script src='script.js' type="text/javascript"></script>
 
 <head>
     <meta charset="UTF-8">
     <title>Time is on my side</title>
     <link href="style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Italianno" rel="stylesheet">
-    <script src='script.js' type="text/javascript"></script>
+    <script src='js.js' type="text/javascript"></script>
 </head>
 
 <body>
-    <script>
-        function play() {
-            var audio = document.getElementById("audio");
-            audio.play();
-        }
-    </script>
 
     <h1>Four Decades of Wedding Dresses</h1>
-    <button type="button" value="PLAY" onclick="play()">1995</button>
-    <audio id="audio" src="song.mp3"></audio>
-    <button type="button" value="PLAY" onclick="play()">2000</button>
-    <button type="button" value="PLAY" onclick="play()">2005</button>
-    <button type="button" value="PLAY" onclick="play()">2015</button>
 
+    <button class="tip" id = "1">1995
+        <span class="tiptext">Click to see wedding dress from 1995</span>
+    </button>
+    <button class="tip" id = "2">2000
+      <span class="tiptext">Click to see wedding dress from 2000</span>
+    </button>
+    <button class="tip" id = "3">2005
+      <span class="tiptext">Click to see wedding dress from 2005</span>
+    </button>
+    <button class="tip" id = "4">2015
+      <span class="tiptext">Click to see wedding dress from 2015</span>
+    </button>
+    <br><br><br>
+    <img src = "music.png" id = "mus"></img>
+<div>
+    <img id = "1995" src="1995.png"  style="visibility:hidden; display:none">
+    <img id = "2000" src="2000.png"  style="visibility:hidden; display:none">
+    <img id = "2005" src="2005.png"  style="visibility:hidden; display:none">
+    <img id = "2015" src="2015.png"  style="visibility:hidden; display:none">
+</div>
+
+    <audio id="audio" src="song.mp3"></audio>
     <footer>
         <nav>
             <a href="https://validator.w3.org/check?uri=referer" target="_blank">valid html</a>
             <a href="https://jigsaw.w3.org/css-validator/check/referer" target="_blank">valid css</a>
-            </ul>
         </nav>
     </footer>
 </body>
