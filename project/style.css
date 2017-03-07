@@ -1,18 +1,40 @@
 body {
-  background: #FAC2A1;
-  font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    background: #FAC2A1;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-left: 30%;
+    padding-right: 30%;
+    max-width: 500px;
 }
+
 p {
-	margin-left: 20%;
-	margin-right: 20%;
+    padding-top: 5%;
+    color: #626262;
 }
 
-h1 {
-  text-align: center;
-  font-size: 72px;
+div {
+    text-align: left;
 }
 
-h2{
-  margin-left: 20%;
-  margin-right: 20%;
+a {
+    text-decoration: none;
+    color: #626262;
+}
+
+ol {
+    color: #626262;
+}
+
+h3 {
+    text-align: center;
+}
+
+img {
+    float: center; 
+    width: 45%;
+    text-align: center;
+}
+
+footer {
+    padding-top: 23%;
 }
