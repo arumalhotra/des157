@@ -10,6 +10,7 @@ canvas {
 
 #mysketch{
 	text-align: center;
+  position: relative;
 }
 .border:hover
 {
