@@ -66,3 +66,12 @@ ul{
 	visibility: hidden;
 	display:none;
 }
+
+p{
+	text-align: center;
+}
+
+#screen3 {
+	visibility: hidden;
+	display:none;
+}
