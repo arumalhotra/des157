@@ -23,3 +23,5 @@ document.getElementById("screen5").onclick = function() {
         document.getElementById("screen6").style.visibility = "visible";
     }
 
+});
+
