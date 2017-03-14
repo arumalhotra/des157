@@ -75,13 +75,19 @@ ul{
 	padding-bottom: 10px;
 }
 
-#screen2 {
+
+p{
+	text-align: center;
+}
+
+#screen1 {
 	visibility: hidden;
 	display:none;
 }
 
-p{
-	text-align: center;
+#screen2 {
+	visibility: hidden;
+	display:none;
 }
 
 #screen3 {
@@ -95,6 +101,11 @@ p{
 }
 
 #screen5 {
+	visibility: hidden;
+	display:none;
+}
+
+#screen6 {
 	visibility: hidden;
 	display:none;
 }
