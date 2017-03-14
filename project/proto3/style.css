@@ -9,6 +9,11 @@ footer{
 	padding-top: 50px;
 }
 
+#iphone {
+	margin-top: -700px;
+	width: 450px;
+}
+
 .boxed {
 	height: 50px;
 	width: 375px;
@@ -108,6 +113,10 @@ p{
 #screen6 {
 	visibility: hidden;
 	display:none;
+}
+
+#sceen7 {
+	padding-top: 100px;
 }
 
 #logo {
