@@ -58,7 +58,7 @@ button {
 	border-radius: 8px;
 	padding: 10px 25px;
 	border: none;
-	margin-left: 90px;
+	margin-left: 110px;
 }
 
 button:hover {
@@ -136,5 +136,7 @@ form {
 
 #setting {
 	float:right;
+	padding-right: 15px;
+	padding-top: 8px;
 }
 

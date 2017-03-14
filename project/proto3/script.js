@@ -46,4 +46,19 @@ document.getElementById("ken").onclick = function() {
         document.getElementById("screen1").style.display = "hidden";
 
     }
+
+    document.getElementById("logout").onclick = function() {
+        document.getElementById("screen2").style.visibility = "visible";
+        document.getElementById("screen2").style.display = "block";
+        document.getElementById("screen5").style.display = "none";
+        document.getElementById("screen5").style.display = "hidden";
+        document.getElementById("screen4").style.display = "none";
+        document.getElementById("screen4").style.display = "hidden";
+        document.getElementById("screen3").style.display = "none";
+        document.getElementById("screen3").style.display = "hidden";
+        document.getElementById("screen1").style.display = "none";
+        document.getElementById("screen1").style.display = "hidden";
+
+    }
+
 });
