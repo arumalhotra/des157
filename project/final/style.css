@@ -1,78 +1,35 @@
 body {
 	text-align: center;
 	font-family: helvetica;
-	background-color: #F2F2F2;
+	background-image: url("images/background.jpg");
+	background-repeat: no-repeat;
 }
 
+#logo {
+	padding-top: 58%;
+	margin-right: 250px;
+}
 
 footer{
-	padding-top: 50px;
+	padding-top: 50%;
 }
 
-#iphone {
-	margin-top: -700px;
-	width: 450px;
+a{
+	color: white;
+	text-decoration: none;
+	font-size: 24px;
 }
 
-.boxed {
-	height: 50px;
-	width: 375px;
-	background-color:rgb(140,211,202);
-	font-size: 16px;
-	font-weight: lighter;
-	margin-left: 37.5%;
-	color: #4A4A4A;
-}
-
-.skin {
-	height: 667px;
-	width: 375px;
-	background-color:rgb(252,255,255);
-	font-size: 16px;
-	font-weight: lighter;
-	margin-left: 37.5%;
-	margin-top: -5px;
-	text-align: left;
-	padding-top: 10px;
-}
-
-.skin2 {
-	height: 667px;
-	width: 375px;
-	background-color:rgb(252,255,255);
-	font-size: 16px;
-	font-weight: lighter;
-	margin-left: 37.5%;
-	margin-top: 10px;
-	text-align: left;
-	padding-top: 10px;
+p{
+	text-align: center;
+	color: black;
+	font-size: 40px;
 }
 
 h2{
 	padding-top: 15px;
-	font-size: 16px;
-}
-
-
-button {
-	margin-top: 50px;
+	font-size: 40px;
 	color: white;
-	background-color: #4A4A4A;
-	font-family: helvetica;
-	font-size: 14px;
-	border-radius: 8px;
-	padding: 10px 25px;
-	border: none;
-	margin-left: 110px;
-}
-
-button:hover {
-    background-color: #878787;
-}
-
-h3{
-	padding-left: 20px;
-	font-size: 16px;
 }
 
 ul{
@@ -80,9 +37,77 @@ ul{
 	padding-bottom: 10px;
 }
 
+li {
+	font-size: 24px;
+	color: black;
+}
 
-p{
-	text-align: center;
+button {
+	margin-top: 20%;
+	color: white;
+	background-color: #0FE9DA;
+	font-family: helvetica;
+	font-size: 36px;
+	border-radius: 8px;
+	padding: 30px 45px;
+	border: none;
+}
+
+button:hover {
+    background-color: #7CF2EA;
+}
+
+#ucdavis {
+	padding-left: 120px;
+	margin-top: 25px;
+}
+
+.boxed {
+	height: 125px;
+	background-color:#0FE9DA;
+	font-size: 16px;
+	font-weight: lighter;
+	color: #4A4A4A;
+}
+
+.skin {
+	background-color:rgb(252,255,255);
+	font-size: 16px;
+	font-weight: lighter;
+	margin-top: -5px;
+	text-align: left;
+	padding-top: 10px;
+}
+
+
+h3{
+	padding-left: 20px;
+	font-size: 16px;
+}
+
+h6{
+	font-size: 36px;
+}
+
+input {
+	background-color: #EDEBEB;
+	width: 85%;
+	height: 100px;
+	padding: 12px 20px;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: -70px;
+}
+
+form {
+	margin-left: 13%;
+	margin-top: 10%;
+}
+
+#log {
+	margin-left: 40%;
 }
 
 #screen1 {
@@ -127,26 +152,6 @@ p{
 	height: 25%;
 }
 
-#ucdavis{
-	margin-left: 50px;
-	margin-top: 10px;
-}
-
-input {
-	background-color: #EDEBEB;
-	width: 85%;
-	padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: none;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
-form {
-	margin-left: 13%;
-	margin-top: 10%;
-}
 #ken{
 	float: left;
 	width: 20%;
