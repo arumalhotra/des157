@@ -9,14 +9,14 @@
 
 <body>
 
-<section id="screen7">
+<div id="screen7">
   <img src="images/logo.png" alt="logo" id="logo">
   <p>Therapy when you need it. Wherever you need it.</p>
-</section>
+</div>
 
-<section id="screen1">
+<div id="screen1">
 
-    <img src="images/logo.png" alt="icon" style="margin-top: 25%; padding-bottom: 10%;">
+    <img src="images/logo.png" alt="icon">
     <h2>How do you benefit from t-talk?</h2>
       <ul>
       <br>
@@ -27,93 +27,65 @@
       <li>The subscription costs $10/week</li>
       </ul>
       <button id="accept">Accept and Log In</button>
-
-</section>
+</div>
 
 <section id="screen2">
-    <div class="boxed">
-      <h2>Log In</h2>
-    </div>
-
-    <div class="skin">
+      <div class="boxed">
+        <h2>Log In</h2>
+      </div>
       <img id="ucdavis" src="images/ucdavis.png" alt="icon">
       <form action="/action_page.php">
         <h6>Username:</h6>
         <input type="text" name="username">
         <h6>Password:</h6>
-        <input type="text" name="password">
+        <input type="password" name="password">
        </form> 
     <button id="log">Log In</button>
-    </div>
 </section>
 
 <section id="screen3">
     <div class="boxed">
-		<img id="setting" src="images/setting.png" alt="image">
 	    <h2 style="padding-left: 30px">Choose Your Therapist</h2>
     </div>
 
-    <div class="skin">
-    <h3 style="padding-bottom: 5px;">Online Therapists</h3>
+    <h3>Online Therapists</h3>
       <ul>
-      <div id=ther>
-        <img id="ken" src="images/ken.png" alt="image">
-        <br>
-        <li>Dr. Ken</li>
-      </div>
-      <br><br>
-      <img id="ken" src="images/julie.png" alt="image">
-      <br>
-      <li>Dr. Julie</li>
-      <br><br>
-      <img id="ken" src="images/melrose.png" alt="image">
-      <br>
-      <li>Dr. Melrose</li>
+      <li><img id="ken" src="images/ken.png" alt="image"><p>Dr. Ken</p></li>
+      <li><img id="ken" src="images/julie.png" alt="image"><p>Dr. Julie</p></li>
+      <li><img id="ken" src="images/melrose.png" alt="image"><p>Dr. Melrose</p></li>
       </ul>
-      <br>
-      <h3 style="padding-bottom: 5px;">Other Therapists</h3>
-      <ul>
-      <img id="ken" src="images/ben.png" alt="image">
-      <br>
-      <li>Dr. Ben</li>
-      <br><br>
-      <img id="ken" src="images/carly.png" alt="image">
-      <br>
-      <li>Dr. Carly</li>
-      <br><br>
-      <img id="ken" src="images/jen.png" alt="image">
-      <br>
-      <li>Dr. Jen</li>
-      </ul>
-    </div>
 
+    <h3>Schedule With Other Therapists</h3>
+      <ul>
+      <li><img id="ken" src="images/ben.png" alt="image"><p>Dr. Ben</p></li>
+      <li><img id="ken" src="images/carly.png" alt="image"><p>Dr. Carly</p></li>
+      <li><img id="ken" src="images/jen.png" alt="image"><p>Dr. Jen</p></li>
+      </ul>
 </section>
 
 <section id="screen4">
     <div class="boxed">
-    <img id="setting" src="images/setting.png" alt="image">
-      <h2 style="padding-left: 40px;">Profile</h2>
+      <h2>Profile</h2>
     </div>
 
-    <div class="skin">
-    <img src="images/ken1.png" alt="image" style="width: 45%; height: 25%; margin-left: 29%; margin-top: 30px; margin-bottom: 25px;">
+    <img src="images/ken1.png" alt="image" id="ken1">
     <h3 style="text-align: center;">Dr. Ken</h3>
-      <p>
+      <h5>
       Dr. Christopher Ken<br>
       University of California, Bekeley<br><br>
       2248 Stockton Blvd.<br>
       Sacramento, CA 95817<br>
       Office phone:  (916) 734-0870<br>
-      </p>
+      </h5>
 
-      <button id="chat" style="margin-left: 130px;">Chat Now</button>
+      <button id="chat"><a href="web-start/index.html">Chat Now</a></button>
     </div>
 </section>
 
 <section id="screen5">
     <div class="boxed">
     <img id="setting" src="images/setting.png" alt="image">
-      <h2 style="padding-left: 40px;">Setting</h2>
+      <h2">Setting</h2>
     </div>
 
     <div class="skin">
@@ -134,34 +106,6 @@
     </ul>
     </div>
     </section>
-
-
-    <section id="screen6">
-        <div class="boxed">
-        <img id="setting" src="images/setting.png" alt="image">
-        <h2 style="padding-left: 30px;">Dr. Ken</h2>
-        </div>
-      <div class="skin">
-      <img id="ken" src="images/ken.png" alt="image" style="height: 12%; margin-left: 20px;">
-        <p style="border-radius: 4px; background-color: #CFCFCF; padding-top: 15px; padding-bottom: 15px; margin-left: 110px; margin-right: 20px; text-align: left; padding-left: 10px;">Hi! This is Dr. Ken. How are you doing?</p>
-  
-        <input type="text" name="message" style="margin-top: 525px; float: left; width: 230px;margin-left: 20px;">
-        <button style="float: right; margin-top: -45px; margin-right: 20px;" onclick="myFunction()">Submit</button>
-  
-      </div>
-      </section>
-
-
-
-      <script>
-        function myFunction() {
-        alert("This function has not been built out. After this point you would be in conversation with Dr. Ken.");
-      }
-      </script>
-
-
-
-
 
     <footer>
         <nav>
