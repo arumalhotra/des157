@@ -30,3 +30,7 @@ function draw() {
 	translate(-1.5 * (200), 0, 0);
 	sphere(200);
 }
+
+function myFunction() {
+    alert("If you are viewing this prototype in a screen larger than Iphone 6, please change the view in Inspect Element to Iphone 6 before continuing.");
+}

@@ -44,7 +44,7 @@ li {
 button {
 	margin-top: 20%;
 	color: white;
-	background-color: #0FE9DA;
+	background-color: rgb(140,211,202);
 	font-family: helvetica;
 	font-size: 26px;
 	border-radius: 8px;
@@ -53,7 +53,7 @@ button {
 }
 
 button:hover {
-    background-color: #7CF2EA;
+    background-color: #C2C2C2;
 }
 
 #screen1 {
