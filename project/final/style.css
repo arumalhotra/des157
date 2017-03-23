@@ -182,4 +182,22 @@ h5 {
 	margin-left: 30px;
 }
 
+.fade-in {
+	animation: fadeIn 2s;
+}
+
+.fade-in2 {
+	animation: fadeIn 4s;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
 
