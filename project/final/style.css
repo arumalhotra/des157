@@ -157,6 +157,11 @@ h5 {
 	display:none;
 }
 
+#screen9 {
+	visibility: hidden;
+	display:none;
+}
+
 #sceen1 {
 	padding-top: 100px;
 }
