@@ -63,12 +63,14 @@
       <div id="user-container">
         <div hidden id="user-pic"></div>
         <div hidden id="user-name"></div>
-        <button hidden id="sign-out" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--white">
-          Sign-out
-        </button>
-        <button hidden id="sign-in" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--white  mdl-color--teal-200">
-          <i class="material-icons">account_circle</i>Sign-in with Google
-        </button>
+        <div style="margin-top: -55px; margin-left: 325px;">
+	        <button hidden id="sign-out" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--white">
+	          Sign-out
+	        </button>
+	        <button hidden id="sign-in" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--white  mdl-color--teal-200">
+	          <i class="material-icons">account_circle</i>
+	        </button>
+        </div>
       </div>
     </div>
   </header>
@@ -84,7 +86,7 @@
           </div>
           <form id="message-form" action="#">
             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-              <input class="mdl-textfield__input" type="text" id="message" style="height: 50px; margin-top: 520px; margin-left: -100px;">
+              <input class="mdl-textfield__input" type="text" id="message" style="height: 50px; margin-top: 520px; margin-left: -200px; position: absolute;">
             </div>
             <button style="margin-top: -100px; margin-right: -250px;" id="submit" disabled type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect  mdl-color--teal-200 mdl-color-text--white">
               Send
