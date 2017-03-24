@@ -71,8 +71,8 @@ document.getElementById("ken").onclick = function() {
     }
 
     document.getElementById("chat").onclick = function() {
-        document.getElementById("screen9").style.visibility = "visible";
-        document.getElementById("screen9").style.display = "block";
+        document.getElementById("screen6").style.visibility = "visible";
+        document.getElementById("screen6").style.display = "block";
         document.getElementById("screen5").style.display = "none";
         document.getElementById("screen5").style.display = "hidden";
         document.getElementById("screen4").style.display = "none";

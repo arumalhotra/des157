@@ -157,11 +157,6 @@ h5 {
 	display:none;
 }
 
-#screen9 {
-	visibility: hidden;
-	display:none;
-}
-
 #sceen1 {
 	padding-top: 100px;
 }
@@ -174,7 +169,7 @@ h5 {
 	height: 25%;
 }
 
-.ken{
+#ken{
 	float: left;
 	width: 20%;
 	height: 20%;
