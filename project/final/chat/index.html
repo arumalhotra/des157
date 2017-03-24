@@ -42,12 +42,12 @@
 
   <!-- Material Design Lite -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <!-- <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.orange-indigo.min.css"> -->
+  <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.orange-indigo.min.css">
   <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
 
   <!-- App Styling -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
-  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
 <div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -56,21 +56,17 @@
   <header class="mdl-layout__header mdl-color-text--white mdl-color--teal-200">
     <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-grid">
       <div class="mdl-layout__header-row mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--12-col-desktop">
-        <div style="background-color: rgb(140,211,202); height: 50px; text-align: center; margin-left: -20px; margin-right: -20px; margin-top: -20px; padding-left: 90px; padding-top: 10px; color: white;">
         <h3>Chatting with Dr. Ken</h3>
-        </div>
       </div>
       <div id="user-container">
         <div hidden id="user-pic"></div>
         <div hidden id="user-name"></div>
-        <div style="margin-top: -50px; margin-left: 300px;">
-	        <button hidden id="sign-out" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--white">
-	          Sign-out
-	        </button>
-	        <button hidden id="sign-in" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--white  mdl-color--teal-200">
-	          <i class="material-icons">account_circle</i>
-	        </button>
-        </div>
+        <button hidden id="sign-out" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--white">
+          Sign-out
+        </button>
+        <button hidden id="sign-in" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--white  mdl-color--teal-200">
+          <i class="material-icons">account_circle</i>Sign-in with Google
+        </button>
       </div>
     </div>
   </header>
@@ -86,9 +82,10 @@
           </div>
           <form id="message-form" action="#">
             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-              <input class="mdl-textfield__input" type="text" id="message" style="height: 40px; margin-top: 525px; margin-left: -200px; position: absolute; font-size: 16px; width: 275px;">
+              <input class="mdl-textfield__input" type="text" id="message">
+              <label class="mdl-textfield__label" for="message">Message...</label>
             </div>
-            <button style="margin-top: 525px; margin-right: -230px; margin-bottom: 50px; padding: 10px 15px;" id="submit" disabled type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect  mdl-color--teal-200 mdl-color-text--white">
+            <button id="submit" disabled type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect  mdl-color--teal-200 mdl-color-text--white">
               Send
             </button>
           </form>
@@ -103,7 +100,7 @@
 
       <div id="must-signin-snackbar" class="mdl-js-snackbar mdl-snackbar">
         <div class="mdl-snackbar__text"></div>
-        <!-- <button class="mdl-snackbar__action" type="button"></button> -->
+        <button class="mdl-snackbar__action" type="button"></button>
       </div>
 
     </div>
