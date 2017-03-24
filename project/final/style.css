@@ -116,7 +116,13 @@ h5 {
 }
 
 #chat {
-	margin-left: 30%;
+	color: white;
+	background-color: rgb(140,211,202);
+	font-family: helvetica;
+	font-size: 12px;
+	border-radius: 8px;
+	padding: 30px 45px;
+	border: none;
 }
 
 #ken1 {
@@ -177,6 +183,12 @@ h5 {
 }
 
 #setting {
+	float:left;
+	padding-top: 40px;
+	margin-left: 30px;
+}
+
+.setting {
 	float:left;
 	padding-top: 40px;
 	margin-left: 30px;

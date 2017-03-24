@@ -39,6 +39,8 @@ ul{
 li {
 	font-size: 24px;
 	color: black;
+	margin-top: 50px;
+	text-align: left;
 }
 
 button {
@@ -59,6 +61,16 @@ button:hover {
 #screen1 {
 	visibility: hidden;
 	display:none;
+}
+
+#accept {
+	color: white;
+	background-color: rgb(140,211,202);
+	font-family: helvetica;
+	font-size: 12px;
+	border-radius: 8px;
+	padding: 30px 45px;
+	border: none;
 }
 
 .fade-in {

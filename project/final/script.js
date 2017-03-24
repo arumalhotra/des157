@@ -86,5 +86,23 @@ document.getElementById("ken").onclick = function() {
 
     }
 
+    document.getElementById("home").onclick = function() {
+        document.getElementById("screen3").style.visibility = "visible";
+        document.getElementById("screen3").style.display = "block";
+        document.getElementById("screen6").style.display = "none";
+        document.getElementById("screen6").style.display = "hidden";
+        document.getElementById("screen5").style.display = "none";
+        document.getElementById("screen5").style.display = "hidden";
+        document.getElementById("screen4").style.display = "none";
+        document.getElementById("screen4").style.display = "hidden";
+        document.getElementById("screen3").style.display = "none";
+        document.getElementById("screen3").style.display = "hidden";
+        document.getElementById("screen2").style.display = "none";
+        document.getElementById("screen2").style.display = "hidden";
+        document.getElementById("screen1").style.display = "none";
+        document.getElementById("screen1").style.display = "hidden";
+
+    }
+
 
 });
